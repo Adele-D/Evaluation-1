@@ -4,10 +4,13 @@
 <head>
   <meta 
     charset="UTF-8">
-    <!-- pour référencement
-    name = "descrition"
-    content = "...."-->
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1">
   <title>Mon Association</title>
+  <meta 
+    name="description" 
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">"
   <link 
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
     rel="stylesheet" 
@@ -18,6 +21,7 @@
     type="text/css"
     href="style.css">
 </head>
+
 
 <body>
 
@@ -44,7 +48,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#"></a>
+          <a class="navbar-brand"></a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Accueil</a>
@@ -72,52 +76,44 @@
       </div>
     </nav>
 
-    <!-- Fil d'Ariane
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Accueil</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Page 1</li>
-      </ol>
-    </nav>
-     -->
-
     <section>
       <h2 class="row p-3">Mes articles</h2>
-      <div class="row row-cols-1 row-cols-md-2">
-        <article class="col p-2">
-          <div class="card">
-            <img 
-              src="http://placeimg.com/600/200/nature" 
-              class="card-img-top rounded-lg" 
-              alt="">
-            <div class="card-body">
-              <h3 class="card-title text-success font-weight-normal">Article 1</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque semper mi est, ac molestie nibh laoreet in.
-                Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
-              </p>
-              <a href="#" class="btn btn-outline-success">Lire la suite...</a>
+        <div class="row row-cols-1 row-cols-md-2">
+          <article class="col p-2">
+            <div class="card">
+              <img 
+                src="http://placeimg.com/600/200/nature" 
+                class="card-img-top rounded-lg" 
+                alt="">
+              <div class="card-body">
+                <h3 class="card-title text-success font-weight-normal">Article 1</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque semper mi est, ac molestie nibh laoreet in.
+                  Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                </p>
+                <a href="#" class="btn btn-outline-success">Lire la suite...</a>
+              </div>
             </div>
-          </div>
-        </article>
-        <article class="col p-2">
-          <div class="card">
-            <img 
-              src="http://placeimg.com/600/200/nature" 
-              class="card-img-top rounded-lg" 
-              alt="">
-            <div class="card-body">
-              <h3 class="card-title text-success">Article 2</h3>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque semper mi est, ac molestie nibh laoreet in.
-                Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
-              </p>
-              <a href="#" class="btn btn-outline-success">Lire la suite...</a>
+          </article>
+          <article class="col p-2">
+            <div class="card">
+              <img 
+                src="http://placeimg.com/600/200/animals" 
+                class="card-img-top rounded-lg" 
+                alt="">
+              <div class="card-body">
+                <h3 class="card-title text-success">Article 2</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque semper mi est, ac molestie nibh laoreet in.
+                  Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                </p>
+                <a href="#" class="btn btn-outline-success">Lire la suite...</a>
+              </div>
             </div>
-          </div>
-        </article>
+          </article>
+        </div>
     </section>
 
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -179,7 +175,10 @@
 
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script 
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+  crossorigin="anonymous">
+</script>
 
 </html>
